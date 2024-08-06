@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+:root{
+	--color-general:#888585;
+	--fondo-header:#4e4e4e;
+	--fondo-footer:#383737;
+	--color-titulos: #3c3838; 
+
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	background-color: var(--color-general);
+}
+
+
+
+
+header{
+	background-color: var(--fondo-header);
+
+}
+
+#hero{
+	background-color:var(--fondo-header);
+	background-image: url("../img/header_bg.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0px;
+	color: #FFF;
+	font-family: "Oswald", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+}
+
+      .welcome {
+            text-align: center;
+            padding: 50px 0;
+		  	background-color:white;
+			background-position: center;
+		  padding top: 10px;
+		  padding-bottom: 200px; 
+				}
+
+        h2 {
+            font-family: "Oswald", sans-serif;
+  			font-optical-sizing: auto;
+  			font-weight: 700;
+			font-size: 40px;
+            margin-bottom: 40px;
+			color: #3c3838;
+        }
+        .welcome .col {
+            padding: 20px;
+        }
+        .welcome h3 {
+			font-family: "Oswald", sans-serif;
+  			font-optical-sizing: auto;
+  			font-weight: 700;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 10px;
+			text-align: left;
+			color: #e6e8eb;
+        }
+
+h4{
+	font-family: "Oswald", sans-serif;
+  			font-optical-sizing: auto;
+  			font-weight: 700;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+			text-align: left;
+			color: #3c3838;
+}
+
+.mb-3 {
+			text-align: right;
+			color: #3c3838;
+}
+
+
+
+      p {
+          font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;  
+		  font-size: 15px;
+		  text-align: left;
+		  
+        
+        }
+
+
+        .btn-primary{
+            padding: 15px 30px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 25px;
+            background-color: #41c1fe;
+            color: #fff;
+            border: none;
+            transition: background-color 0.3s ease;
+			margin-top: 50px;
+        }
+    	.btn:hover {
+            background-color: #0056b3;
+        }
+
+#coaches{
+	margin-top: 50px;
+	padding: 0px 40px 30px 0px;
+	background-color: #f3f3f3;
+	text-align: center;
+	
+	
+}
+
+#coaches h4{
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	
+}
+
+#coaches p{
+	font-size: 10px;
+		text-align: center;
+	padding top: 0px;
+	
+}
+
+#gallery{
+	padding: 40px ;
+	background-color: #f3f3f3;
+	text-align: center;
+	margin-top: 0px;
+	
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
